@@ -1,0 +1,162 @@
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar ul li{
+    padding: 0.4rem;
+}
+
+#navbar ul li a{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: goldenrod;
+}
+
+#home img{
+    border: 6px solid goldenrod;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+
+#home .name{
+    padding:2rem;
+}
+
+#home {
+    display: flex;
+    justify-content:space-between;
+    max-width: 100%;
+    justify-content: space-between;
+    /* margin-left: 3rem; */
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-left-width: 6px;
+    border-left-color: goldenrod;
+    border-left-style: solid;
+    /* border-bottom-width: 6px;
+    border-bottom-color: goldenrod;
+    border-bottom-style: solid; */
+    border-right: 6px solid goldenrod;    
+}
+
+
+#home .name{
+    display: flex;
+    flex-direction: column;
+}
+
+#home .name a{
+    margin: 6rem 0;
+}
+
+#home .name a:hover{
+    background-color: white;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+
+#about{
+    color: white;
+}
+
+#about .items .item{
+    padding: 1.3rem;
+    padding-left: 2rem;
+}
+
+#about .items{
+    display: flex;
+}
+
+#about .items .item p{
+    font-style: italic;
+}
+
+#teams{
+    padding: 3rem;
+}
+
+#teams .container .teams .team{
+    padding: 1rem;
+    display: flex;
+    position: relative;
+}
+
+#teams .container .teams .team .team-image{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teams .container .teams .team .team-image img{
+    width: 300px;
+    height: auto;    
+}
+
+#teams .container .teams .team .team-info{
+    padding: 1.5rem;
+}
+
+#teams .container .teams .team .team-info .description{
+    margin-top: 1rem;
+}
+
+#contact{
+    color: white;
+    padding: 2rem;
+}
+
+.form-group label{
+    display: block;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    display: flex;
+    align-self: center;
+}
+
+.form-group label{
+    display: block;
+}
+
+#contact .contact-form ul li{
+    list-style-type: none;
+    padding: 0.5rem;   
+}
+
+.contact-form ul li a{
+    padding: 1rem;
+
+}
+
+.contact-form ul li a:hover{
+    opacity: 0.8;
+}

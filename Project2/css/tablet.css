@@ -1,0 +1,5 @@
+#teams .container .teams .team{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}

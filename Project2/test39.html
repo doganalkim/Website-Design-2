@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo</title>
+    <meta name="keyword" content="Cristiano Ronaldo">
+    <meta name="description" content="Cristiano Ronaldo">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+    <link rel="stylesheet"  media="(max-width:500px)" href="./css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        @media(max-width:1100px){
+            #home{
+                display: flex;
+                flex-direction: column;
+                margin-right: 0rem;
+                
+            }
+            #home img{
+                border-right-width:6px ;
+                border-bottom-right-radius:10px ;
+                border-bottom: 6px solid goldenrod;
+                border-bottom-left-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-gold-yellow">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="white-text">Cristiano Ronaldo</h1>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#teams">Teams</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="./images/image1.jpg" alt="Cristiano Ronaldo">
+        <div class="name">
+            <h2 class="medium-heading">Cristiano Ronaldo</h2>
+            <p style="font-style: oblique;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod temporibus molestias eius magni autem totam hic quaerat voluptatem inventore expedita.
+            </p>
+            <a class="btn btn-primary"href="#teams">Teams</a>
+        </div>
+    </section>
+
+    <section id="about" class="bg-gold-yellow">
+        <h3 class="text-center medium-heading" style="padding-top: 1rem;">Cristiano Ronaldo </h3>
+        <div class="items">
+            <div class="item">
+                <i class="fa-solid fa-user"></i>
+                <h3>
+                    Whos is he?
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt sit unde inventore at ratione modi itaque eum ab labore!
+                </p>
+            </div>
+
+            <div class="item">
+                <i class="fa-solid fa-user"></i>
+                <h3>
+                    His Career
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt sit unde inventore at ratione modi itaque eum ab labore!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="teams">
+        <h2 class="text-center">Teams</h2>
+        <div class="container">
+            <div class="teams">
+                <div class="team">
+                    <div class="team-image">
+                        <img src="./images/image2.jpg" alt="RM">
+                        <span>Real Madrid</span>
+                    </div>
+                    <div class="team-info">
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, mollitia. Commodi voluptatibus, enim, praesentium debitis neque placeat perspiciatis vero incidunt repellendus aspernatur dolores similique ab quis, totam voluptatem cumque nihil.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teams">
+                <div class="team">
+                    <div class="team-image">
+                        <img   src="./images/image4.jpg" alt="JUVENTUS">
+                        <span>Juventus</span>
+                    </div>
+                    <div class="team-info">
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, mollitia. Commodi voluptatibus, enim, praesentium debitis neque placeat perspiciatis vero incidunt repellendus aspernatur dolores similique ab quis, totam voluptatem cumque nihil.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="teams">
+                <div class="team">
+                    <div class="team-image">
+                        <img src="./images/image3.jpg" alt="MU">
+                        <span>Manchister United</span>
+                    </div>
+                    <div class="team-info">
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, mollitia. Commodi voluptatibus, enim, praesentium debitis neque placeat perspiciatis vero incidunt repellendus aspernatur dolores similique ab quis, totam voluptatem cumque nihil.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gold-yellow">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center big-heading" >Contact Us</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="8" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Submit</button>
+            </form>
+            <ul>
+                <li><a href="https://www.google.com.tr/?hl=tr" target="_blank"> <i class="fa-brands fa-instagram"></i> </a></li>
+                <li><a href="https://www.google.com.tr/?hl=tr" target="_blank"> <i class="fa-brands fa-facebook"></i> </a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
